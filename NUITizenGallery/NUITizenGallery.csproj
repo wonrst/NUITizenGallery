@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -448,7 +448,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Tizen.NET" Version="9.0.0.16445" />
+    <ProjectReference Include="/home/wonrst/tizen/nui/TizenFX/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj" />
     <PackageReference Include="Tizen.NUI.XamlBuild" Version="1.0.27" />
   </ItemGroup>
 
